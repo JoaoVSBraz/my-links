@@ -2,7 +2,7 @@
 
 ![My links screenshot](images/my-links.png)
 
-[My links]() is a simple page that groups social links for social medias. Inspired by Rocketseat Rocket Links project.
+[My links](https://joaovsbraz.github.io/my-links/) is a simple page that groups social links for social medias. Inspired by Rocketseat Rocket Links project.
 
 ## Table of contents
 
@@ -10,9 +10,8 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Links]()
-  - [Useful recources]()
-- [Author]()
+  - [Links](#links)
+  - [References](#references)
 
 ## Overview
 
@@ -47,11 +46,11 @@ if (lightTheme.classList.contains('active')) {
 
 ### Links
 
-You can check the project online [here]()!
+You can check the project online [here](https://joaovsbraz.github.io/my-links/)!
 
 ### References
 
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Linktree](https://linktr.ee/)
-- [My Links]()
+- [My Links](https://joaovsbraz.github.io/my-links/)
