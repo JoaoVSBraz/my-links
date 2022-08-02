@@ -32,16 +32,16 @@ My links is a simple page that do social linking similarly to linktree.
 
 In this project I've implemented the light theme (dark is the default) changing elements background color and text color using Javascript.
 
-```javascript
-if (lightTheme.classList.contains('active')) {
-    lightTheme.style.color = '#161616';
-    toWhiteBackground(whiteBackground);
-    toDarkText(darkText);
-  } else {
-    lightTheme.style.color = '#F9F9F9';
-    toDarkBackground(darkBackground);
-    toWhiteText(whiteText);
-  }
+```js
+function transformKey(key) {
+  return '--' + key;
+}
+
+function changeColors(colors) {
+  Object.keys(colors).map(key => {
+    html.style.setProperty(transformKey(key), colors[key]);
+  })
+}
 ```
 
 ### Links
